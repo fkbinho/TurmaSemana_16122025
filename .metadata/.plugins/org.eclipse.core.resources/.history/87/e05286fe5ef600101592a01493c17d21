@@ -1,0 +1,10 @@
+package laco_repeticao;
+
+public class ExercicioCalculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

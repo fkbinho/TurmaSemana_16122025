@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+C:\TURMA_SEMANA\turma_16122025\.metadata\.plugins\org.eclipse.jdt.core
+3687131816.index
+2348438005.index
+1386588580.index
+435225534.index
+3309710330.index
+1389968083.index
+2048996996.index
+1865797976.index
+1473199623.index

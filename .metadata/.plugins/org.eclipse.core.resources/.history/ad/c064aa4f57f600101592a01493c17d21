@@ -1,0 +1,36 @@
+package laco_repeticao;
+
+import java.util.Scanner;
+
+public class LacoFor {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		int senhaCorreta = 1234;
+		int senhaInformada = 0;
+		
+		for(int tentativas = 3; tentativas > 0; tentativas--) {
+			
+			System.out.println("Informe a senha: ");
+			senhaInformada = scan.nextInt();
+			
+			if(senhaInformada == senhaCorreta) {
+				System.out.println("Acesso permitido!");
+				break;
+			} else {
+				System.out.println("Senha incorreta. ");
+				System.out.println("Tentativas restantes: " 
+									+ (tentativas - 1));
+			}
+		}
+		
+		if(senhaInformada != senhaCorreta) {
+			System.out.println("Acesso bloqueado. Muitas tentativas incorretas.");
+		}
+
+	}
+
+}
