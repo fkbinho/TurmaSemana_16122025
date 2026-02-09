@@ -4,6 +4,8 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="size()"/>
+			<item value="sier()"/>
 		</list>
 	</section>
 </section>
